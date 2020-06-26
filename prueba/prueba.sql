@@ -36,8 +36,8 @@ INSERT INTO categorias (nombre_categoria, descripcion_categoria) VALUES ("catego
 
 -- 2 para el cliente1 , con 2 y 3 productos --
 
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("1111-1", "2020-01-01",1500,285,1785) -- 1 y 2 --
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("1111-1", "2020-01-01",1500,285,1785) -- 3, 4 y 5 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("1111-1", "2020-01-01",1500,285,1785); -- 1 y 2 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("1111-1", "2020-01-01",1500,285,1785); -- 3, 4 y 5 --
 
 INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (1,1,1);
 INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (1,2,1);
@@ -48,9 +48,9 @@ INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (2,5,1
 
 -- 3 para el cliente2, con 3, 2 y 3 productos --
 
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("2222-2", "2020-01-01",2100,399,2499) -- 1 , 2 y 3 --
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("2222-2", "2020-01-01",900,171,1071) --  4 y 5 --
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("2222-2", "2020-01-01",600,114,714) -- 6, 7 y 8 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("2222-2", "2020-01-01",2100,399,2499); -- 1 , 2 y 3 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("2222-2", "2020-01-01",900,171,1071); --  4 y 5 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("2222-2", "2020-01-01",600,114,714); -- 6, 7 y 8 --
 
 INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (3,1,1);
 INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (3,2,1);
@@ -65,16 +65,16 @@ INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (5,8,1
 
 -- 1 para el cliente3, con 1 producto --
 
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("3333-3", "2020-01-01",800,152,952) -- 1  --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("3333-3", "2020-01-01",800,152,952); -- 1  --
 
 INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (6,1,1);
 
 -- 4 para el cliente 4, con 2, 3, 4 y 1 producto --
  
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("4444-4", "2020-01-01",1500,285,1785) -- 1 y 2 --
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("4444-4", "2020-01-01",1500,285,1785) --  3, 4 y 5 --
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("4444-4", "2020-01-01",1400,266,1666) -- 6, 7 , 8 y 1 --
-INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("4444-4", "2020-01-01",700,133,833) -- 2 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("4444-4", "2020-01-01",1500,285,1785); -- 1 y 2 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("4444-4", "2020-01-01",1500,285,1785); --  3, 4 y 5 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("4444-4", "2020-01-01",1400,266,1666); -- 6, 7 , 8 y 1 --
+INSERT INTO facturas (rut_cliente_f, fecha_factura, subtotal, iva, total) VALUES ("4444-4", "2020-01-01",700,133,833); -- 2 --
 
 INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (7,1,1);
 INSERT INTO facturas_productos (n_factura, id_productos, cantidad) VALUES (7,2,1);
